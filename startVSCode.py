@@ -5,5 +5,5 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 
 os.environ['PYTHONPATH'] = HERE
 
-code = os.popen('code {}'.format(os.path.dirname(__file__)))
+code = os.popen('code ./machine-learning.code-workspace')
 code.close()
